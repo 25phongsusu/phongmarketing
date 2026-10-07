@@ -544,7 +544,6 @@
       <nav class="desktop-nav" aria-label="Điều hướng chính">
           <a href="#how-i-think">Tư duy</a>
           <a href="#case-studies">Case Studies</a>
-          <a href="#system">Hệ thống</a>
           <a href="#real-data">Thực tế</a>
         </nav>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
@@ -554,7 +553,6 @@
   <nav class="mobile-menu" id="mobile-menu" aria-label="Điều hướng di động">
       <a href="#how-i-think">Tư duy</a>
       <a href="#case-studies">Case Studies</a>
-      <a href="#system">Hệ thống</a>
       <a href="#real-data">Thực tế</a>
     </nav>
 
@@ -562,18 +560,19 @@
     
     <!-- 01 HERO -->
     <section class="hero" id="hero" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <h1 id="hero-title">Khách hàng chỉ cần một cú click để có hàng nghìn lựa chọn.<br><span class="accent">Vậy điều gì khiến họ chọn bạn?</span></h1>
-        <p>Tôi giúp doanh nghiệp biến dữ liệu khách hàng thành thông điệp, quảng cáo và hệ thống tăng trưởng có thể đo lường.<br><strong style="color: var(--accent);">4 năm thực chiến. Trực tiếp đồng hành cùng 80+ SME.</strong></p>
-        <div style="margin-bottom: 36px; font: 700 .85rem/1 var(--mono); color: var(--muted); letter-spacing: .05em; text-transform: uppercase;">
-          Digital Marketing &times; Software Engineering
+        <div class="hero-copy">
+          <h1 id="hero-title">Tôi làm Marketing.<br><span class="accent">Nhưng tôi không chỉ chạy Ads.</span></h1>
+          <p>Tôi triển khai Performance Marketing từ nghiên cứu khách hàng, xây dựng thông điệp, quảng cáo đến phân tích và tối ưu.</p>
+          <p>Với nền tảng Công nghệ, tôi còn xây dựng Data, Automation và AI để biến quy trình Marketing thành một hệ thống có thể cải thiện liên tục.</p>
+          <div style="margin-bottom: 36px; font: 700 .85rem/1 var(--mono); color: var(--muted); letter-spacing: .05em; text-transform: uppercase; display: flex; gap: 16px; align-items: center; flex-wrap: wrap;">
+            <span>3+ NĂM</span> &bull; <span>80+ SME</span> &bull; <span>PERFORMANCE MARKETING</span> &bull; <span>AUTOMATION</span>
+          </div>
+          <a class="button" href="#how-i-think">Xem tôi giải quyết vấn đề</a>
         </div>
-        <a class="button" href="#how-i-think">Xem tôi giải quyết vấn đề</a>
-      </div>
-      <figure class="hero-visual" aria-label="Chân dung Phong PDT">
-        <img src="portrait.png" width="571" height="1024" alt="Chân dung Phong PDT" fetchpriority="high">
-      </figure>
-    </section>
+        <figure class="hero-visual" aria-label="Chân dung Phong PDT">
+          <img src="portrait.png" width="571" height="1024" alt="Chân dung Phong PDT" fetchpriority="high">
+        </figure>
+      </section>
 
     <!-- 1.5 SOCIAL PROOF -->
     <section class="social-proof">
@@ -581,16 +580,11 @@
         <p class="eyebrow">Hơn 80 doanh nghiệp & cửa hàng SME đã từng là một phần trong hành trình tôi làm Marketing.</p>
         <div class="shops-frame">
            <img src="shops.png" width="1164" height="1022" alt="Các đối tác SME" loading="lazy">
-        </div>
       </div>
     </section>
 
     <!-- 02 THE PROBLEM -->
-    <section class="section punchline">
-      <div class="shell reveal text-center">
-        <blockquote><span class="quiet">Được nhìn thấy chỉ là bước đầu.</span> <span class="loud">Điều gì xảy ra sau cú click?</span></blockquote>
-      </div>
-    </section>
+    
 
     <!-- 03 HOW I THINK -->
     <section class="section" id="how-i-think">
@@ -598,65 +592,32 @@
         <header class="section-heading reveal">
           <h2>Tôi không bắt đầu bằng việc chạy quảng cáo. Tôi bắt đầu bằng câu hỏi: <span class="accent">Khách hàng thực sự đang gặp vấn đề gì?</span></h2>
         </header>
-        <div class="thinking-timeline">
-          
-          <div class="timeline-step reveal">
-            <div class="step-num">01 &mdash; Nghiên cứu</div>
-            <div class="step-info">
-              <p>Khách hàng là ai? Họ đang gặp vấn đề gì? Họ đang chọn đối thủ vì điều gì?</p>
-            </div>
-            <div class="step-output">
-              <span class="label">Output:</span> <span class="value">Insight</span>
-            </div>
+        <div class="thinking-row reveal" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-top: 32px;">
+          <div style="padding: 20px; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column;">
+            <h3 style="font-size: 0.9rem; letter-spacing: 0.05em; margin-bottom: 12px; color: var(--accent); text-transform: uppercase;">01 &mdash; Nghiên cứu</h3>
+            <p style="font-size: 0.9rem; color: var(--muted); margin: 0 0 16px 0; line-height: 1.5; flex-grow: 1;">Khách hàng là ai? Họ đang gặp vấn đề gì? Họ đang chọn đối thủ vì điều gì?</p>
+            <div style="font-size: 0.8rem; font-family: var(--mono); color: var(--accent); opacity: 0.8; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.1);">OUTPUT: Insight</div>
           </div>
-
-          <div class="timeline-step reveal">
-            <div class="step-num">02 &mdash; Thông điệp</div>
-            <div class="step-info">
-              <p>Biến Insight trở thành điểm chạm thực tế.</p>
-              <ul>
-                <li>Thông điệp / Storytelling</li>
-                <li>Hình ảnh / Video (Creative)</li>
-                <li>Landing Page / Content</li>
-              </ul>
-            </div>
-            <div class="step-output">
-              <span class="label">Output:</span> <span class="value">Creative</span>
-            </div>
+          <div style="padding: 20px; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column;">
+            <h3 style="font-size: 0.9rem; letter-spacing: 0.05em; margin-bottom: 12px; color: var(--accent); text-transform: uppercase;">02 &mdash; Thông điệp</h3>
+            <p style="font-size: 0.9rem; color: var(--muted); margin: 0 0 16px 0; line-height: 1.5; flex-grow: 1;">Biến Insight trở thành điểm chạm thực tế (Storytelling, Video, Landing Page).</p>
+            <div style="font-size: 0.8rem; font-family: var(--mono); color: var(--accent); opacity: 0.8; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.1);">OUTPUT: Creative</div>
           </div>
-
-          <div class="timeline-step reveal">
-            <div class="step-num">03 &mdash; Quảng cáo</div>
-            <div class="step-info">
-              <p>Đưa thông điệp đến thị trường một cách chính xác.</p>
-              <ul>
-                <li>Meta Ads / TikTok Ads</li>
-                <li>Lựa chọn kênh phù hợp với hành vi</li>
-              </ul>
-            </div>
-            <div class="step-output">
-              <span class="label">Output:</span> <span class="value">Traffic / Lead / Conversion</span>
-            </div>
+          <div style="padding: 20px; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column;">
+            <h3 style="font-size: 0.9rem; letter-spacing: 0.05em; margin-bottom: 12px; color: var(--accent); text-transform: uppercase;">03 &mdash; Quảng cáo</h3>
+            <p style="font-size: 0.9rem; color: var(--muted); margin: 0 0 16px 0; line-height: 1.5; flex-grow: 1;">Đưa thông điệp đến thị trường một cách chính xác qua Meta/TikTok Ads.</p>
+            <div style="font-size: 0.8rem; font-family: var(--mono); color: var(--accent); opacity: 0.8; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.1);">OUTPUT: Traffic / Lead</div>
           </div>
-
-          <div class="timeline-step reveal">
-            <div class="step-num">04 &mdash; Dữ liệu</div>
-            <div class="step-info">
-              <p>Không chỉ nhìn bề nổi (CPM / CTR / CPC). Tôi nhìn vào cách khách hàng thực sự phản ứng với thông điệp.</p>
-            </div>
-            <div class="step-output">
-              <span class="label">Output:</span> <span class="value">Behavioral Data</span>
-            </div>
+          <div style="padding: 20px; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column;">
+            <h3 style="font-size: 0.9rem; letter-spacing: 0.05em; margin-bottom: 12px; color: var(--accent); text-transform: uppercase;">04 &mdash; Dữ liệu</h3>
+            <p style="font-size: 0.9rem; color: var(--muted); margin: 0 0 16px 0; line-height: 1.5; flex-grow: 1;">Không chỉ nhìn bề nổi (CPM/CTR/CPC). Tôi nhìn vào cách khách hàng thực sự phản ứng.</p>
+            <div style="font-size: 0.8rem; font-family: var(--mono); color: var(--accent); opacity: 0.8; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.1);">OUTPUT: Behavioral Data</div>
           </div>
-
-          <div class="timeline-step reveal">
-            <div class="step-num">05 &mdash; Tối ưu</div>
-            <div class="step-info">
-              <p>Dữ liệu mới trở thành đầu vào cho vòng nghiên cứu tiếp theo. Tối ưu liên tục và không dựa vào cảm tính.</p>
-            </div>
+          <div style="padding: 20px; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column;">
+            <h3 style="font-size: 0.9rem; letter-spacing: 0.05em; margin-bottom: 12px; color: var(--accent); text-transform: uppercase;">05 &mdash; Tối ưu</h3>
+            <p style="font-size: 0.9rem; color: var(--muted); margin: 0 0 16px 0; line-height: 1.5; flex-grow: 1;">Dữ liệu mới trở thành đầu vào cho vòng nghiên cứu tiếp theo. Tối ưu liên tục và không dựa vào cảm tính.</p>
+            <div style="font-size: 0.8rem; font-family: var(--mono); color: var(--accent); opacity: 0.8; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.1);">OUTPUT: Optimization</div>
           </div>
-
-        </div>
       </div>
     </section>
 
@@ -664,39 +625,39 @@
     <section class="section" id="case-studies">
       <div class="shell">
         <header class="section-heading reveal">
-          <h2>Tôi không chỉ nói về cách làm. <span class="accent">Đây là những gì tôi đã làm.</span></h2>
+          <h2>CASE STUDIES & HỆ THỐNG</h2>
+          <p>Giải quyết vấn đề bằng Tư duy Marketing và tối ưu bằng Công cụ Kỹ thuật.</p>
         </header>
-        
+
         <div class="cases-grid">
+          
           <!-- Case 01 -->
           <div class="case-card reveal">
-            <div>
-              <div class="case-meta">CASE 01 &mdash; PERFORMANCE & GROWTH</div>
-              <h3 class="case-title" style="margin-bottom: 16px;">"Có khách nhắn nhưng không chốt được"</h3>
-              <div class="case-details" style="color: var(--muted); font-size: 1rem; line-height: 1.5;">
-                <p><strong>Bối cảnh:</strong> Shop chạy Facebook Ads, tin nhắn đều nhưng đơn thấp. Chủ shop nghĩ do quảng cáo kém.</p>
-                <p><strong>Vấn đề:</strong> CPL đẹp nhưng tỷ lệ chốt thấp, tiền đổ vào khách tò mò không có nhu cầu thật.</p>
-              </div>
-            </div>
-            <div class="case-details">
-              <h4>Tôi đã giải quyết thế nào?</h4>
-              <p style="color: var(--accent); font-family: var(--mono); font-weight: 700; font-size: .8rem; text-transform: uppercase;">1. Performance (Quảng cáo)</p>
-              <ul>
-                <li>Đổi nội dung quảng cáo để nói rõ giá, đối tượng và điều kiện mua nhằm lọc bớt khách tò mò ngay từ đầu.</li>
-                <li>So sánh từng tệp và creative theo chất lượng khách thực tế, không chỉ nhìn vào CPL.</li>
-                <li>Chuyển ngân sách từ nhóm nhiều tin nhắn nhưng ít đơn sang nhóm ra đơn tốt hơn.</li>
-              </ul>
-              <p style="color: var(--accent); font-family: var(--mono); font-weight: 700; font-size: .8rem; text-transform: uppercase; margin-top: 16px;">2. Growth (Ngoài quảng cáo)</p>
-              <ul>
-                <li>Xem lại hành trình từ tin nhắn đầu đến chốt đơn: tốc độ trả lời, kịch bản tư vấn, ưu đãi.</li>
-                <li>Làm việc cùng chủ shop để tinh chỉnh kịch bản tư vấn và theo dõi tỷ lệ chốt theo từng nguồn khách.</li>
-              </ul>
-              <div class="case-result">
-                <h4>Kết quả & Bài học</h4>
-                <p><strong>Kết quả:</strong> Tỷ lệ chốt tăng trưởng ổn định, chi phí trên mỗi đơn hàng giảm đáng kể, CIR (Cost to Income Ratio) được duy trì ở mức tối ưu.</p>
-                <p style="margin-top: 8px;"><strong>Bài học:</strong> Quảng cáo chỉ là một mắt xích. Khi đơn thấp, hãy kiểm tra cả phễu trước khi quyết định tăng ngân sách.</p>
-                <div class="proof-gallery">
-                  <img src="Screenshots/mockup_ab_test.svg" alt="A/B Testing Content Funnel" loading="lazy">
+            <div class="case-body" style="width: 100%;">
+              <header class="case-header" style="margin-bottom: 16px;">
+                <h3 style="font-size: 1.3rem; margin-bottom: 8px;">01.Tối ưu khách hàng tiềm năng & Hệ thống phân chia tự động</h3>
+                <span style="font-size: 0.85rem; color: var(--accent);">[Ngành: Thẩm mỹ / Spa]</span>
+              </header>
+              <div style="font-size: 0.95rem; line-height: 1.6; color: var(--muted);">
+                <p><strong>Vấn đề:</strong> Quảng cáo thu hút nhiều khách hàng chưa phù hợp. Quy trình phân chia khách thủ công khiến Sales tiếp cận chậm, làm tăng tỷ lệ mất khách.</p>
+                <p><strong>Việc đã làm:</strong><br>
+                  Thử nghiệm nhiều kịch bản tư vấn để xác định nhóm khách hàng thực sự có nhu cầu.<br>
+Tự động chuyển khách hàng tiềm năng từ Facebook Ads và TikTok Ads vào Google Sheets của đội Telesale ngay khi phát sinh.
+                </p>
+                <div class="case-result" style="margin-top: 16px; background: rgba(255,255,255,0.03); padding: 16px; border-radius: 8px; border-left: 3px solid var(--accent);">
+                  <h4 style="margin-bottom: 8px;">Kết quả</h4>
+                  <p style="margin-bottom: 4px;">Giảm 35% CPL, tăng 40% tỷ lệ kết nối (Contact Rate) nhờ Sales gọi ngay trong 5 phút đầu.</p>
+                  
+                </div>
+                <div class="proof-gallery" style="display: flex; gap: 16px; margin-top: 24px; cursor: pointer;">
+                  <div style="flex: 1;">
+                    <img src="Screenshots/mockup_ab_test.svg" alt="A/B Testing Funnel" loading="lazy" style="width: 100%; border-radius: 4px; border: 1px solid rgba(255,255,255,0.05);">
+                    
+                  </div>
+                  <div style="flex: 1;">
+                    <img src="Screenshots/mockup_automation.svg" alt="Automation Flow" loading="lazy" style="width: 100%; border-radius: 4px; border: 1px solid rgba(255,255,255,0.05);">
+                    
+                  </div>
                 </div>
               </div>
             </div>
@@ -704,34 +665,25 @@
 
           <!-- Case 02 -->
           <div class="case-card reveal">
-            <div>
-              <div class="case-meta">CASE 02 &mdash; SYSTEM & DATA TRACKING</div>
-              <h3 class="case-title" style="margin-bottom: 16px;">"Không biết tiền marketing đang đi đâu"</h3>
-              <div class="case-details" style="color: var(--muted); font-size: 1rem; line-height: 1.5;">
-                <p><strong>Bối cảnh:</strong> Doanh nghiệp chi tiền cho ads và nội dung, nhưng số liệu rời rạc, không biết nguồn nào ra khách.</p>
-                <p><strong>Vấn đề:</strong> Báo cáo Ads Manager không khớp doanh số thực. Quyết định ngân sách hoàn toàn dựa trên cảm giác.</p>
-              </div>
-            </div>
-            <div class="case-details">
-              <h4>Tôi đã giải quyết thế nào?</h4>
-              <p style="color: var(--accent); font-family: var(--mono); font-weight: 700; font-size: .8rem; text-transform: uppercase;">1. Performance (Quảng cáo)</p>
-              <ul>
-                <li>So sánh chi phí và kết quả từng chiến dịch, nhóm quảng cáo, creative theo CPL, CTR, CIR.</li>
-                <li>Cắt ngay các nhóm kém hiệu quả, tăng ngân sách cho nhóm đang giữ được kết quả tốt.</li>
-              </ul>
-              <p style="color: var(--accent); font-family: var(--mono); font-weight: 700; font-size: .8rem; text-transform: uppercase; margin-top: 16px;">2. Growth (Hệ thống & Dữ liệu)</p>
-              <ul>
-                <li>Thiết lập hệ thống tracking để biết chính xác khách đến từ nguồn nào.</li>
-                <li>Dựng bảng theo dõi chung (Dashboard): chi phí, khách, đơn, CIR theo từng nguồn. Tự động hóa cập nhật hằng tuần bằng Scripts và API.</li>
-                <li>Dùng bảng này làm cơ sở để họp và quyết định ngân sách hằng tuần với chủ shop.</li>
-              </ul>
-              <div class="case-result">
-                <h4>Kết quả & Bài học</h4>
-                <p><strong>Kết quả:</strong> Tiết kiệm hàng chục giờ làm báo cáo thủ công mỗi tuần. CIR giảm rõ rệt nhờ phát hiện đúng nguồn và phân bổ ngân sách chuẩn xác.</p>
-                <p style="margin-top: 8px;"><strong>Bài học:</strong> Đo đúng trước, tối ưu sau. Đây chính là điểm mà nền tảng kỹ thuật (Engineering) tạo ra sự khác biệt.</p>
-                <div class="proof-gallery">
-                  <img src="Screenshots/mockup_dashboard.svg" alt="Bảng theo dõi dữ liệu tự động" loading="lazy">
-                  <img src="Screenshots/mockup_automation.svg" alt="Luồng Automation" loading="lazy">
+            <div class="case-body" style="width: 100%;">
+              <header class="case-header" style="margin-bottom: 16px;">
+                <h3 style="font-size: 1.3rem; margin-bottom: 8px;">02. Mini App theo dõi dữ liệu & Báo cáo tự động</h3>
+                <span style="font-size: 0.85rem; color: var(--accent);">[Ngành: Bán lẻ / Thời trang]</span>
+              </header>
+              <div style="font-size: 0.95rem; line-height: 1.6; color: var(--muted);">
+                <p><strong>Vấn đề:</strong> Không đo lường được chiến dịch nào đem lại doanh thu thật. Báo cáo làm thủ công mất nhiều giờ mỗi tuần.</p>
+                <p><strong>Việc đã làm:</strong><br>
+                  - Thiết lập theo dõi để xác định khách hàng đến từ chiến dịch, quảng cáo và nội dung nào trên Meta/TikTok.<br>
+                  - Kết nối dữ liệu từ website, sàn thương mại điện tử và hệ thống bán hàng vào một Dashboard tập trung, tự động cập nhật các chỉ số như chi phí quảng cáo, doanh thu và hiệu quả đầu tư(ROAS).
+                </p>
+                <div class="case-result" style="margin-top: 16px; background: rgba(255,255,255,0.03); padding: 16px; border-radius: 8px; border-left: 3px solid var(--accent);">
+                  <h4 style="margin-bottom: 8px;">Kết quả</h4>
+                  <p style="margin-bottom: 4px;">CIR giảm từ 32% xuống 22%. Tiết kiệm ~10h/tuần làm báo cáo thủ công.</p>
+                  
+                </div>
+                <div class="proof-gallery" style="margin-top: 24px; cursor: pointer;">
+                  <img src="Screenshots/mockup_dashboard.svg" alt="Dashboard Looker Studio" loading="lazy" style="width: 100%; border-radius: 4px; border: 1px solid rgba(255,255,255,0.05);">
+                  
                 </div>
               </div>
             </div>
@@ -739,96 +691,38 @@
 
           <!-- Case 03 -->
           <div class="case-card reveal">
-            <div style="grid-column: 1 / -1;">
-              <div class="case-meta">CASE 03 &mdash; TESTING & SCALING</div>
-              <h3 class="case-title" style="max-width: 800px; margin-bottom: 16px;">"Shop mới, ít tiền, không biết bắt đầu từ đâu"</h3>
-              <div class="case-details" style="color: var(--muted); font-size: 1rem; line-height: 1.5; max-width: 800px;">
-                <p><strong>Bối cảnh:</strong> Shop mới mở, ngân sách cực kỳ hạn chế, hoàn toàn chưa có dữ liệu quá khứ.</p>
-                <p><strong>Vấn đề:</strong> Sợ đốt tiền vào quảng cáo mà không biết khách hàng thực sự muốn gì.</p>
-              </div>
-            </div>
-            <div class="case-details" style="grid-column: 1 / -1;">
-              <div style="display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
-                <div>
-                  <p style="color: var(--accent); font-family: var(--mono); font-weight: 700; font-size: .8rem; text-transform: uppercase;">1. Performance (Quảng cáo)</p>
-                  <ul>
-                    <li>Chia ngân sách nhỏ cho vòng test đầu, thử nghiệm nhanh 2-3 tệp khách hàng và 2-3 mẫu quảng cáo.</li>
-                    <li>Loại ngay phương án kém hiệu quả sau vòng đầu, dồn tiền cho phương án tốt hơn.</li>
-                    <li>Scale (mở rộng) từ từ khi chỉ số đã ổn định, luôn kiểm soát CPL và CIR ở mức an toàn.</li>
-                  </ul>
+            <div class="case-body" style="width: 100%;">
+              <header class="case-header" style="margin-bottom: 16px;">
+                <h3 style="font-size: 1.3rem; margin-bottom: 8px;">03. Mở rộng nhóm khách hàng & thử nghiệm nội dung</h3>
+                <span style="font-size: 0.85rem; color: var(--accent);">[Ngành: Dịch vụ Ô tô]</span>
+              </header>
+              <div style="font-size: 0.95rem; line-height: 1.6; color: var(--muted);">
+                <p><strong>Vấn đề:</strong> Doanh thu phụ thuộc vào một vài quảng cáo chủ lực. Khi các quảng cáo này giảm hiệu quả, doanh thu sụt giảm mạnh -> cần liên tục thử nghiệm nhóm khách hàng mới với ngân sách kiểm soát.</p>
+                <p><strong>Việc đã làm:</strong><br>
+                  -Thử nghiệm nhiều cách truyền tải nội dung trên các nhóm khách hàng khác nhau. Nhanh chóng loại bỏ nhóm có chi phí cao và tăng ngân sách cho những nhóm mang lại khách hàng hiệu quả hơn.
+                </p>
+                <div class="case-result" style="margin-top: 16px; background: rgba(255,255,255,0.03); padding: 16px; border-radius: 8px; border-left: 3px solid var(--accent);">
+                  <h4 style="margin-bottom: 8px;">Kết quả</h4>
+                  <p style="margin-bottom: 4px;">Doanh thu +150% trong tháng đầu, tìm ra 2 mẫu nội dung hiệu quả duy trì trong 3 tháng tiếp theo.</p>
+                  
                 </div>
-                <div>
-                  <p style="color: var(--accent); font-family: var(--mono); font-weight: 700; font-size: .8rem; text-transform: uppercase;">2. Growth (Ngoài quảng cáo)</p>
-                  <ul>
-                    <li>Nghiên cứu khách hàng và đối thủ để chọn ra 2-3 insight đáng test nhất, thay vì thử mọi thứ dàn trải.</li>
-                    <li>Dùng kết quả vòng trước để định hướng nội dung và thông điệp cho vòng sau theo quy trình: <strong>Test → Phân tích → Tối ưu → Scale</strong>.</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="case-result">
-                <h4>Kết quả & Bài học</h4>
-                <p><strong>Kết quả:</strong> Thu về những khách hàng đầu tiên chỉ sau vài ngày thử nghiệm. CPL ổn định, doanh thu bù đắp tốt cho ngân sách test, tạo đà để tăng ngân sách nhưng CIR vẫn giữ dưới mức mục tiêu.</p>
-                <p style="margin-top: 8px;"><strong>Bài học:</strong> Ngân sách nhỏ cần test nhỏ và có thứ tự ưu tiên. Mỗi vòng test phải trả lời được một câu hỏi cụ thể.</p>
-                <div class="proof-gallery">
-                  <img src="Screenshots/mockup_testing_matrix.svg" alt="Testing Pipeline" loading="lazy">
+                <div class="proof-gallery" style="margin-top: 24px; cursor: pointer;">
+                  <img src="Screenshots/mockup_testing_matrix.svg" alt="Testing Matrix" loading="lazy" style="width: 100%; border-radius: 4px; border: 1px solid rgba(255,255,255,0.05);">
+                  
                 </div>
               </div>
             </div>
           </div>
+      
+        <div onclick="openCasesModal()" style="margin: 40px auto 0 auto; font-size: 0.95rem; font-weight: 500; color: var(--muted); border-left: 3px solid var(--accent); text-align: left; max-width: 600px; line-height: 1.5; background: rgba(128,128,128,0.05); padding: 12px 16px; border-radius: 0 8px 8px 0; cursor: pointer; transition: background 0.2s ease;" onmouseover="this.style.background='rgba(128,128,128,0.1)'" onmouseout="this.style.background='rgba(128,128,128,0.05)'">
+          Xem thêm case study của tôi tại đây
         </div>
-      </div>
-    </section>
+      </div></section>
 
-        <!-- 05 BUILDING THE SYSTEM -->
-    <section class="section" id="system">
-      <div class="shell">
-        <header class="section-heading reveal">
-          <h2>Hệ thống tôi đã xây</h2>
-          <p>Không nói lý thuyết. Dưới đây là 3 hệ thống cốt lõi tôi tự xây dựng bằng Python và Automation để loại bỏ việc thủ công và tối ưu chi phí cho doanh nghiệp.</p>
-        </header>
+    
 
-        <div class="cases-grid reveal">
-          <div class="case-card">
-            <div>
-              <div class="case-meta">TOOL 01 &mdash; DATA ENGINEERING</div>
-              <h3 class="case-title" style="margin-bottom: 12px; font-size: 1.6rem;">Growth Dashboard v2.0</h3>
-              <p style="color: var(--muted); font-size: 1rem; margin-bottom: 8px;"><strong>Vấn đề:</strong> Phải tải số liệu từ FB Ads, TikTok, và KiotViet bằng tay mỗi ngày để tính CIR.</p>
-              <p style="color: var(--muted); font-size: 1rem; margin-bottom: 16px;"><strong>Giải pháp:</strong> Code script Python lấy Data tự động qua API, làm sạch dữ liệu và đẩy lên Looker Studio.</p>
-              <p style="color: var(--accent); font-weight: 700; font-size: 1rem;">Tiết kiệm: ~10h làm báo cáo/tuần.</p>
-            </div>
-            <div class="proof-gallery">
-              <img src="Screenshots/mockup_dashboard.svg" alt="Growth Dashboard" loading="lazy" style="height: 100%; object-fit: cover;">
-            </div>
-          </div>
-          <div class="case-card">
-            <div>
-              <div class="case-meta">TOOL 02 &mdash; WORKFLOW AUTOMATION</div>
-              <h3 class="case-title" style="margin-bottom: 12px; font-size: 1.6rem;">Zalo ZNS Lead Routing</h3>
-              <p style="color: var(--muted); font-size: 1rem; margin-bottom: 8px;"><strong>Vấn đề:</strong> Khách để lại số điện thoại nhưng Sales gọi chậm, dẫn đến rớt đơn.</p>
-              <p style="color: var(--muted); font-size: 1rem; margin-bottom: 16px;"><strong>Giải pháp:</strong> Dùng n8n bắt form từ FB, chia Lead thẳng về Google Sheets của Sales và tự động gửi tin nhắn chào mừng Zalo ZNS trong 5 giây.</p>
-              <p style="color: var(--accent); font-weight: 700; font-size: 1rem;">Kết quả: Tăng 25% tỷ lệ kết nối thành công.</p>
-            </div>
-            <div class="proof-gallery">
-              <img src="Screenshots/mockup_automation.svg" alt="Zalo Automation" loading="lazy" style="height: 100%; object-fit: cover;">
-            </div>
-          </div>
-          <div class="case-card">
-            <div>
-              <div class="case-meta">TOOL 03 &mdash; AI &amp; CONTENT ANALYTICS</div>
-              <h3 class="case-title" style="margin-bottom: 12px; font-size: 1.6rem;">AI Creative Analyst</h3>
-              <p style="color: var(--muted); font-size: 1rem; margin-bottom: 8px;"><strong>Vấn đề:</strong> Chạy hàng trăm mẫu quảng cáo nhưng không rõ vì sao mẫu đó "win" (do Hook, hay tiêu đề?).</p>
-              <p style="color: var(--muted); font-size: 1rem; margin-bottom: 16px;"><strong>Giải pháp:</strong> Dùng Python kéo Data Ads &rarr; gọi API OpenAI bóc tách tự động Hook, Cảm xúc &rarr; đổ về Google Sheets.</p>
-              <p style="color: var(--accent); font-weight: 700; font-size: 1rem;">Kết quả: Tìm ra "công thức nội dung" có tỷ lệ chuyển đổi cao nhất.</p>
-            </div>
-            <div class="proof-gallery">
-              <img src="Screenshots/mockup_ai_creative.svg" alt="AI Creative Analyst" loading="lazy" style="height: 100%; object-fit: cover;">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- 06 REAL DATA -->
+<!-- 06 REAL DATA -->
     <section id="real-data" class="section reveal">
       <div class="shell">
         <header class="section-heading">
@@ -884,35 +778,45 @@
           <img src="Screenshots/Thoi_Trang/ads_report_Thoi_Trang_1.png" data-industry="Thoi_Trang" alt="Thời Trang" loading="lazy">
           <img src="Screenshots/Thoi_Trang/ads_report_Thoi_Trang_2.png" data-industry="Thoi_Trang" alt="Thời Trang" loading="lazy">
           <img src="Screenshots/Thoi_Trang/ads_report_Thoi_Trang_3.png" data-industry="Thoi_Trang" alt="Thời Trang" loading="lazy">
-                <div class="text-center" style="margin-top: 32px;">
-          <button id="btn-show-more" class="button" style="display: none; background: transparent; color: var(--ink);" onclick="showMoreGallery()">Xem thêm báo cáo &darr;</button>
+        </div> <!-- End flex-gallery -->
+          
+        <div class="text-center" style="margin-top: 32px; width: 100%;">
+          <button id="btn-show-more" class="button" style="display: none; background: transparent; color: var(--ink); border: 1px solid rgba(128,128,128,0.2);" onclick="showMoreGallery()">Xem thêm báo cáo</button>
         </div>
-</div>
+
+        <div style="margin: 40px auto 0 auto; font-size: 0.95rem; font-weight: 500; color: var(--muted); border-left: 3px solid var(--accent); text-align: left; max-width: 600px; line-height: 1.5; background: rgba(128,128,128,0.05); padding: 12px 16px; border-radius: 0 8px 8px 0;">
+           Tóm gọn: Trung bình chi tiêu 10 triệu cho quảng cáo thì thu về 30 triệu doanh thu.
       </div>
     </section>
-
-    <!-- 07 CLOSING -->
-    <section class="section punchline" id="contact" style="border-bottom: none;">
-      <div class="shell text-center reveal">
+        <!-- CAPABILITIES & PUNCHLINE -->
+    <section class="section punchline">
+      <!-- <div class="shell reveal text-center">
         <div class="capability-list" style="margin-bottom: 48px; justify-content: center;">
           <div class="cap-item">Performance Marketing</div>
-          <div class="cap-item">Data &amp; Analytics</div>
+          <div class="cap-item">Data & Analytics</div>
           <div class="cap-item">Automation</div>
-        </div>
+        </div> -->
         
         <blockquote>
-          <span class="quiet">Marketing giúp tôi hiểu khách hàng.</span><br>
-          <span class="quiet">Engineering giúp tôi tiếp cận họ tốt hơn.</span><br>
-          <span class="loud">Đây là lý do tôi kết hợp cả hai.</span>
+          <span class="quiet">Tôi biến dữ liệu thành quyết định,</span><br>
+          <span class="quiet">quyết định thành hành động,</span><br>
+          <span class="loud">và hành động thành kết quả.</span>
         </blockquote>
+      </div>
+    </section>
+    <!-- 07 CONTACT -->
+    <section class="section" id="contact">
+      <div class="shell text-center">
+
 
         <div class="contact-box reveal">
-          <h3>Bạn đang có một bài toán Marketing?</h3>
-          <p>Tôi không bắt đầu bằng việc bán một gói dịch vụ.<br>Tôi bắt đầu bằng việc hiểu bài toán.</p>
-          <a class="button" id="btn-open-contact" href="javascript:void(0)">Bắt đầu trò chuyện</a>
+          <h3>Bạn đang tìm một Marketer không chỉ biết chạy Ads?</h3>
+          <p>Tôi muốn được làm việc trong một đội ngũ nơi tôi có thể biến dữ liệu thành quyết định, trực tiếp triển khai và liên tục tối ưu kết quả.</p>
+          <a class="button" id="btn-open-contact" href="javascript:void(0)">Liên hệ với tôi</a>
         </div>
       </div>
     </section>
+
 
   </main>
   
@@ -933,6 +837,65 @@
       <img class="lightbox-image" src="" alt="Phóng to ảnh">
       <button class="lightbox-next" aria-label="Ảnh tiếp theo">&#10095;</button>
     </div>
+  </div>
+
+  
+  <!-- More Cases Modal -->
+  <div id="cases-modal" class="lightbox" aria-hidden="true">
+    <div class="lightbox-overlay cases-close" tabindex="-1" onclick="closeCasesModal()"></div>
+    <div class="contact-modal-shell" style="max-width: 600px;">
+      <div class="contact-modal-core" style="padding: 32px 24px; display: flex; flex-direction: column; align-items: stretch; text-align: left;">
+        <button class="contact-close-btn cases-close" aria-label="Đóng" onclick="closeCasesModal()">✕</button>
+        
+        <div style="text-align: center; margin-bottom: 24px;">
+          <h2 style="font-size: 1.5rem; margin-bottom: 8px;">Các dự án khác</h2>
+          <p style="color: var(--muted); font-size: 0.9rem;">Danh sách Case Study đang được cập nhật</p>
+        </div>
+
+        <div style="display: grid; gap: 16px;">
+          
+          <!-- Case 1 -->
+          <div class="case-slide" style="display: block; border: 1px solid rgba(128,128,128,0.15); border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.02); transition: border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='rgba(128,128,128,0.15)'">
+            <div style="font: 700 0.7rem/1 var(--mono); color: var(--accent); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px;">Performance & Growth</div>
+            <h4 style="font-size: 1.1rem; margin-bottom: 12px; line-height: 1.3;">"Có khách nhắn nhưng không chốt được"</h4>
+            <p style="font-size: 0.85rem; color: var(--muted); margin-bottom: 12px; line-height: 1.5;"><strong>Vấn đề:</strong> Quảng cáo ra nhiều tin nhắn nhưng toàn khách tò mò, tỷ lệ chốt cực thấp gây lãng phí ngân sách.</p>
+            <div style="font-size: 0.85rem; color: var(--ink); border-top: 1px solid rgba(128,128,128,0.1); padding-top: 12px;">
+              <strong>Giải quyết:</strong> Tinh chỉnh Content để lọc khách + Phối hợp Sale sửa kịch bản chốt đơn + Dịch chuyển ngân sách sang luồng ra đơn.
+            </div>
+          </div>
+
+          <!-- Case 2 -->
+          <div class="case-slide" style="display: none; border: 1px solid rgba(128,128,128,0.15); border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.02); transition: border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='rgba(128,128,128,0.15)'">
+            <div style="font: 700 0.7rem/1 var(--mono); color: var(--accent); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px;">System & Data Tracking</div>
+            <h4 style="font-size: 1.1rem; margin-bottom: 12px; line-height: 1.3;">"Không biết tiền Marketing đang đi đâu"</h4>
+            <p style="font-size: 0.85rem; color: var(--muted); margin-bottom: 12px; line-height: 1.5;"><strong>Vấn đề:</strong> Báo cáo từ Ads Manager không khớp doanh thu thực tế, quyết định tiêu tiền hoàn toàn dựa vào cảm giác.</p>
+            <div style="font-size: 0.85rem; color: var(--ink); border-top: 1px solid rgba(128,128,128,0.1); padding-top: 12px;">
+              <strong>Giải quyết:</strong> Xây dựng luồng Tracking chuẩn + Cắm API nối dữ liệu về Dashboard (Looker Studio) để thấy rõ CIR từng nguồn.
+            </div>
+          </div>
+
+          <!-- Case 3 -->
+          <div class="case-slide" style="display: none; border: 1px solid rgba(128,128,128,0.15); border-radius: 8px; padding: 20px; background: rgba(255,255,255,0.02); transition: border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='rgba(128,128,128,0.15)'">
+            <div style="font: 700 0.7rem/1 var(--mono); color: var(--accent); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px;">Testing & Scaling</div>
+            <h4 style="font-size: 1.1rem; margin-bottom: 12px; line-height: 1.3;">"Shop mới, ngân sách ít, không biết bắt đầu từ đâu"</h4>
+            <p style="font-size: 0.85rem; color: var(--muted); margin-bottom: 12px; line-height: 1.5;"><strong>Vấn đề:</strong> Không có dữ liệu lịch sử, sợ đốt tiền mà không ra tệp khách hàng chính xác.</p>
+            <div style="font-size: 0.85rem; color: var(--ink); border-top: 1px solid rgba(128,128,128,0.1); padding-top: 12px;">
+              <strong>Giải quyết:</strong> Thiết lập quy trình Test nhanh (Fail Fast) + Tối ưu cuốn chiếu để ra khách hàng đầu tiên ngay trong giới hạn ngân sách.
+            </div>
+          </div>
+
+        <!-- Carousel Controls -->
+        <div style="display: flex; justify-content: center; align-items: center; gap: 24px; margin-top: 24px;">
+          <button onclick="prevCaseSlide()" style="background: transparent; border: 1px solid rgba(128,128,128,0.2); color: var(--ink); border-radius: 50%; width: 40px; height: 40px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'; this.style.color='var(--accent)'" onmouseout="this.style.borderColor='rgba(128,128,128,0.2)'; this.style.color='var(--ink)'">&larr;</button>
+          <span id="case-slide-counter" style="font-family: var(--mono); font-size: 0.85rem; color: var(--muted); font-weight: 700;">1 / 3</span>
+          <button onclick="nextCaseSlide()" style="background: transparent; border: 1px solid rgba(128,128,128,0.2); color: var(--ink); border-radius: 50%; width: 40px; height: 40px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'; this.style.color='var(--accent)'" onmouseout="this.style.borderColor='rgba(128,128,128,0.2)'; this.style.color='var(--ink)'">&rarr;</button>
+        </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
   </div>
 
   <!-- High-End Contact Modal -->
@@ -1200,7 +1163,7 @@
 
     // Gallery State & Event Delegation
     let currentIndustry = 'all';
-    let isMobileCollapsed = true;
+    let isCollapsed = true;
     const MOBILE_LIMIT = 4;
     const flexGallery = document.getElementById('flex-gallery');
 
@@ -1217,7 +1180,7 @@
     });
 
     function renderGallery() {
-      const isMobile = window.innerWidth <= 768;
+      const LIMIT = window.innerWidth <= 768 ? 4 : 8;
       const images = flexGallery.querySelectorAll('img');
       let matchCount = 0;
 
@@ -1225,7 +1188,7 @@
         const matches = (currentIndustry === 'all' || img.dataset.industry === currentIndustry);
         if (matches) {
           matchCount++;
-          if (isMobile && isMobileCollapsed && matchCount > MOBILE_LIMIT) {
+          if (isCollapsed && matchCount > LIMIT) {
             img.classList.add('hidden');
           } else {
             img.classList.remove('hidden');
@@ -1237,7 +1200,7 @@
 
       const btnMore = document.getElementById('btn-show-more');
       if (btnMore) {
-        if (isMobile && isMobileCollapsed && matchCount > MOBILE_LIMIT) {
+        if (isCollapsed && matchCount > LIMIT) {
           btnMore.style.display = 'inline-flex';
         } else {
           btnMore.style.display = 'none';
@@ -1251,12 +1214,12 @@
         event.target.classList.add('active');
       }
       currentIndustry = ind;
-      isMobileCollapsed = true;
+      isCollapsed = true;
       renderGallery();
     }
 
     function showMoreGallery() {
-      isMobileCollapsed = false;
+      isCollapsed = false;
       renderGallery();
     }
 
@@ -1301,6 +1264,36 @@
       }, { threshold: .1, rootMargin: '0px 0px -5% 0px' });
       revealItems.forEach(item => revealObserver.observe(item));
     }
-  </script>
+  
+    let currentCaseSlide = 0;
+    function showCaseSlide(index) {
+      const slides = document.querySelectorAll('.case-slide');
+      if (slides.length === 0) return;
+      
+      if (index >= slides.length) currentCaseSlide = 0;
+      else if (index < 0) currentCaseSlide = slides.length - 1;
+      else currentCaseSlide = index;
+
+      slides.forEach((slide, i) => {
+        slide.style.display = (i === currentCaseSlide) ? 'block' : 'none';
+      });
+      
+      const counter = document.getElementById('case-slide-counter');
+      if(counter) counter.innerText = (currentCaseSlide + 1) + " / " + slides.length;
+    }
+
+    function nextCaseSlide() { showCaseSlide(currentCaseSlide + 1); }
+    function prevCaseSlide() { showCaseSlide(currentCaseSlide - 1); }
+
+    function openCasesModal() {
+      document.getElementById('cases-modal').classList.add('is-open');
+      document.body.classList.add('menu-open');
+      showCaseSlide(0);
+    }
+    function closeCasesModal() {
+      document.getElementById('cases-modal').classList.remove('is-open');
+      document.body.classList.remove('menu-open');
+    }
+</script>
 </body>
 </html>
