@@ -171,6 +171,50 @@
     .shops-frame { position: relative; width: min(100%, 800px); margin: 0 auto; background: transparent; }
     .shops-frame img { width: 100%; height: auto; object-fit: contain; filter: grayscale(1) opacity(0.8); transition: filter .3s; }
     .shops-frame:hover img { filter: grayscale(0) opacity(1); }
+
+    /* Video Showcase Section */
+    .video-showcase {
+      padding-block: clamp(64px, 8vw, 112px);
+      border-bottom: 1px solid var(--line);
+      background: var(--paper-deep);
+    }
+    .video-heading {
+      text-align: center;
+      margin: 0 auto clamp(32px, 4vw, 48px);
+      max-width: 780px;
+    }
+    .video-heading .eyebrow {
+      margin-bottom: 16px;
+    }
+    .video-heading h2 {
+      margin-bottom: 16px;
+      font: 700 clamp(2.2rem, 4vw, 3.8rem)/1.1 var(--display);
+      letter-spacing: -.04em;
+    }
+    .video-heading p {
+      font-size: clamp(1rem, 1.4vw, 1.2rem);
+      color: var(--muted);
+      max-width: 620px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .video-frame {
+      position: relative;
+      width: min(100%, 960px);
+      margin: 0 auto;
+      border: 1px solid var(--line);
+      background: #000;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 24px 64px var(--shadow);
+      aspect-ratio: 16 / 9;
+    }
+    .video-frame video {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
     
     .punchline { min-height: 40dvh; display: grid; place-items: center; text-align: center; }
     .punchline blockquote {
@@ -739,12 +783,31 @@
         </figure>
       </section>
 
+    <!-- 1.2 VIDEO SHOWCASE -->
+    <section class="video-showcase" id="video-overview">
+      <div class="shell">
+        <header class="video-heading reveal">
+          <p class="eyebrow">Video Giới Thiệu</p>
+          <h2>Marketing &times; Engineering</h2>
+          <p>Tổng quan về tư duy, hệ thống tự động hóa và phương pháp tối ưu tăng trưởng trong 45 giây.</p>
+        </header>
+
+        <div class="video-frame reveal">
+          <video controls playsinline preload="none" poster="video_poster.png?v=8s">
+            <source src="video_overview_phongpham.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ phát video.
+          </video>
+        </div>
+      </div>
+    </section>
+
     <!-- 1.5 SOCIAL PROOF -->
     <section class="social-proof">
       <div class="shell">
         <p class="eyebrow">Hơn 80 doanh nghiệp & cửa hàng SME đã từng là một phần trong hành trình tôi làm Marketing.</p>
         <div class="shops-frame">
            <img src="shops.png" width="1164" height="1022" alt="Các đối tác SME" loading="lazy">
+        </div>
       </div>
     </section>
 
