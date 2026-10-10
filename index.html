@@ -385,6 +385,122 @@
     }
     .contact-box h3 { font: 700 clamp(1.6rem, 2.5vw, 2.2rem)/1.1 var(--display); margin-bottom: 16px; letter-spacing: -.03em; text-align: left;}
     .contact-box p { color: var(--muted); margin-bottom: 32px; font-size: 1.1rem; text-align: left;}
+
+    /* Certifications Section */
+    .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: clamp(20px, 3vw, 32px);
+      margin-top: 48px;
+    }
+    .cert-card {
+      border: 1px solid var(--line);
+      background: var(--paper-deep);
+      padding: clamp(24px, 3vw, 36px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: left;
+      position: relative;
+      transition: border-color .3s, transform .25s cubic-bezier(.16, 1, .3, 1);
+    }
+    .cert-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-4px);
+    }
+    .cert-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .cert-badge-frame {
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+      background: #ffffff;
+      border: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    }
+    .cert-badge-frame img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    .cert-issuer {
+      font: 700 .75rem/1 var(--mono);
+      color: var(--accent);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .cert-issuer::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      display: inline-block;
+    }
+    .cert-title {
+      font: 700 clamp(1.2rem, 1.6vw, 1.45rem)/1.2 var(--display);
+      letter-spacing: -.02em;
+      margin-bottom: 14px;
+      color: var(--ink);
+    }
+    .cert-desc {
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1.55;
+      margin-bottom: 24px;
+      flex-grow: 1;
+    }
+    .cert-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      flex-wrap: wrap;
+    }
+    .cert-validity {
+      font: 600 .75rem/1.3 var(--mono);
+      color: var(--muted);
+      letter-spacing: .04em;
+    }
+    .cert-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font: 700 .82rem/1 var(--mono);
+      color: var(--ink);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 2px;
+      transition: color .2s, border-color .2s;
+    }
+    .cert-link::after {
+      content: "↗";
+      font-size: .95rem;
+      color: var(--accent);
+    }
+    .cert-link:hover {
+      color: var(--accent);
+    }
+    @media (max-width: 980px) {
+      .cert-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      }
+    }
     
     footer { border-top: 1px solid var(--line); padding-block: 32px; }
     .footer-inner {
@@ -591,6 +707,7 @@
           <a href="#how-i-think">Tư duy</a>
           <a href="#case-studies">Case Studies</a>
           <a href="#real-data">Thực tế</a>
+          <a href="#certifications">Chứng chỉ</a>
         </nav>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
     </div>
@@ -600,6 +717,7 @@
       <a href="#how-i-think">Tư duy</a>
       <a href="#case-studies">Case Studies</a>
       <a href="#real-data">Thực tế</a>
+      <a href="#certifications">Chứng chỉ</a>
     </nav>
 
   <main id="content">
@@ -859,6 +977,91 @@ Tự động chuyển khách hàng tiềm năng từ Facebook Ads và TikTok Ads
           <h3>Bạn đang tìm một Marketer không chỉ biết chạy Ads?</h3>
           <p>Tôi muốn được làm việc trong một đội ngũ nơi tôi có thể biến dữ liệu thành quyết định, trực tiếp triển khai và liên tục tối ưu kết quả.</p>
           <a class="button" id="btn-open-contact" href="javascript:void(0)">Liên hệ với tôi</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <div class="shell">
+        <header class="section-heading reveal">
+          <p class="eyebrow">Chứng chỉ & Năng lực chuẩn hóa</p>
+          <h2>Nền tảng kiến thức được bảo chứng bởi các nền tảng công nghệ hàng đầu.</h2>
+          <p>Không chỉ dựa vào kinh nghiệm thực chiến trên 80+ SME, tư duy đo lường, quảng cáo và thu hút khách hàng của tôi được chuẩn hóa qua các chứng chỉ quốc tế.</p>
+        </header>
+
+        <div class="cert-grid reveal">
+          <!-- Cert 1: Google Ads AI -->
+          <article class="cert-card">
+            <div>
+              <div class="cert-header">
+                <div class="cert-issuer">Google Skillshop</div>
+                <div class="cert-badge-frame">
+                  <img src="cert-google-ai-performance.png" alt="Google Ads AI-Powered Performance Badge" width="64" height="64" loading="lazy">
+                </div>
+              </div>
+              <h3 class="cert-title">AI-Powered Performance Ads</h3>
+              <p class="cert-desc">Ứng dụng trí tuệ nhân tạo (AI) của Google vào tự động hóa chiến dịch quảng cáo hiệu suất cao, tối ưu bidding, creative và mở rộng quy mô chuyển đổi thông minh.</p>
+            </div>
+            <div class="cert-footer">
+              <span class="cert-validity">Cấp bởi Google</span>
+              <a class="cert-link" href="https://skillshop.credential.net/41fa34aa-9c58-4060-bbf4-01da68bd2196#acc.sr8zix2j" target="_blank" rel="noopener noreferrer">Xác thực chứng chỉ</a>
+            </div>
+          </article>
+
+          <!-- Cert 2: Google Analytics -->
+          <article class="cert-card">
+            <div>
+              <div class="cert-header">
+                <div class="cert-issuer">Google Skillshop</div>
+                <div class="cert-badge-frame">
+                  <img src="cert-google-analytics.png" alt="Google Analytics Certified Badge" width="64" height="64" loading="lazy">
+                </div>
+              </div>
+              <h3 class="cert-title">Google Analytics Certification (2026)</h3>
+              <p class="cert-desc">Năng lực đo lường nâng cao với Google Analytics 4 (GA4): thiết lập tracking sự kiện, phân tích hành vi người dùng đa kênh và chuyển hóa dữ liệu thành quyết định tăng trưởng.</p>
+            </div>
+            <div class="cert-footer">
+              <span class="cert-validity">Cấp bởi Google</span>
+              <a class="cert-link" href="https://skillshop.credential.net/df986a27-3711-445f-87ce-f4dedb38e44a#acc.qcfzIast" target="_blank" rel="noopener noreferrer">Xác thực chứng chỉ</a>
+            </div>
+          </article>
+
+          <!-- Cert 3: HubSpot Inbound Marketing -->
+          <article class="cert-card">
+            <div>
+              <div class="cert-header">
+                <div class="cert-issuer">HubSpot Academy</div>
+                <div class="cert-badge-frame">
+                  <img src="cert-hubspot-badge.png" alt="HubSpot Inbound Marketing Badge" width="64" height="64" loading="lazy">
+                </div>
+              </div>
+              <h3 class="cert-title">Inbound Marketing Certified</h3>
+              <p class="cert-desc">Phương pháp luận Inbound toàn diện: sáng tạo nội dung giải quyết đúng vấn đề khách hàng, nuôi dưỡng và chuyển đổi khách hàng tiềm năng bền vững thay vì chỉ phụ thuộc vào ads.</p>
+            </div>
+            <div class="cert-footer">
+              <span class="cert-validity">Hiệu lực: 2026 &ndash; 2028</span>
+              <a class="cert-link" href="hubspot-inbound-marketing-certification.png" target="_blank" rel="noopener noreferrer">Xem chứng chỉ</a>
+            </div>
+          </article>
+
+          <!-- Cert 4: Semrush SEO with Brian Dean -->
+          <article class="cert-card">
+            <div>
+              <div class="cert-header">
+                <div class="cert-issuer">Semrush Academy</div>
+                <div class="cert-badge-frame">
+                  <img src="cert-semrush-badge.svg" alt="Semrush Academy SEO Badge" width="48" height="48" loading="lazy">
+                </div>
+              </div>
+              <h3 class="cert-title">SEO Crash Course with Brian Dean</h3>
+              <p class="cert-desc">Chiến lược SEO thực chiến hàng đầu từ Brian Dean: nghiên cứu từ khóa intent-focused, tối ưu hóa On-page/Technical SEO và xây dựng Content Engine tạo Organic Traffic bền vững.</p>
+            </div>
+            <div class="cert-footer">
+              <span class="cert-validity">Hiệu lực: Đến 10/2027</span>
+              <a class="cert-link" href="semrush-seo-crash-course-brian-dean.pdf" target="_blank" rel="noopener noreferrer">Xem chứng chỉ</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
