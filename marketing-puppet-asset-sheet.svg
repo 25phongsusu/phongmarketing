@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" fill="none">
+  <title>Friendly Asian Marketer — Modular 2D Puppet Asset Sheet</title>
+  <desc>Animation-ready flat vector components with solid fills and 3px black outlines.</desc>
+  <defs>
+    <style>
+      .ol{stroke:#101318;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .navy{fill:#17385F}.navy2{fill:#244E7A}.white{fill:#FFFFFF}.skin{fill:#F2B184}
+      .skin2{fill:#E99A68}.hair{fill:#121722}.slate{fill:#334155}.pink{fill:#F26B7A}
+      .mouth{fill:#51252A}.wood{fill:#B8733C}.wood2{fill:#8D4F2D}.silver{fill:#C9D1DA}
+      .screen{fill:#AEB8C4}.steam{fill:none}.none{fill:none}
+    </style>
+  </defs>
+
+  <!-- HEAD: base, ears, hair, glasses and clean neck connector; face details stay modular -->
+  <g id="HEAD" transform="translate(58 55)">
+    <path id="neck-connector" class="skin ol" d="M176 280v48c27 17 68 17 95 0v-48z"/>
+    <ellipse id="ear-left" class="skin ol" cx="82" cy="190" rx="34" ry="48"/>
+    <path class="none ol" d="M77 177c-18-18-23 22-3 29 12 4 9-13 1-11"/>
+    <ellipse id="ear-right" class="skin ol" cx="363" cy="190" rx="34" ry="48"/>
+    <path class="none ol" d="M368 177c18-18 23 22 3 29-12 4-9-13-1-11"/>
+    <path id="face-base" class="skin ol" d="M89 164c0-95 58-146 137-146 87 0 143 54 143 148v47c0 82-58 117-143 117-80 0-137-44-137-119z"/>
+    <path id="hair-back" class="hair ol" d="M92 175C54 120 74 48 127 29c42-35 132-35 171-7 43 5 82 49 70 108-15-26-30-39-51-48-13 31-43 49-84 57 12-14 17-27 17-39-31 30-68 45-112 45 13-12 23-25 31-39-27 20-52 31-74 35-2 10-3 21-3 34z"/>
+    <path id="hair-highlight" class="navy2 ol" d="M124 54c51-31 123-37 169-12-48-5-88 4-121 28 50-10 91-4 123 17-52-16-104-8-159 25 13-20 21-39 23-57-13 5-25 11-35 18z"/>
+    <g id="glasses">
+      <circle class="none ol" cx="164" cy="197" r="56"/>
+      <circle class="none ol" cx="290" cy="197" r="56"/>
+      <path class="none ol" d="M220 193c10-8 20-8 29 0M108 186l-25-8M346 186l24-8"/>
+    </g>
+    <path id="nose" class="none ol" d="M228 205l-8 27 12 8"/>
+  </g>
+
+  <!-- EYES: open pair and closed smiling pair -->
+  <g id="EYES_OPEN" transform="translate(555 75)">
+    <g id="eye-open-left">
+      <ellipse class="white ol" cx="48" cy="47" rx="38" ry="43"/>
+      <ellipse class="slate ol" cx="51" cy="51" rx="19" ry="27"/>
+      <circle fill="#101318" cx="53" cy="55" r="10"/>
+      <circle fill="#FFFFFF" cx="60" cy="43" r="5"/>
+      <path class="none ol" d="M14 19c18-13 43-15 65-2"/>
+    </g>
+    <g id="eye-open-right" transform="translate(110 0)">
+      <ellipse class="white ol" cx="48" cy="47" rx="38" ry="43"/>
+      <ellipse class="slate ol" cx="45" cy="51" rx="19" ry="27"/>
+      <circle fill="#101318" cx="43" cy="55" r="10"/>
+      <circle fill="#FFFFFF" cx="50" cy="43" r="5"/>
+      <path class="none ol" d="M14 17c20-13 45-11 66 2"/>
+    </g>
+  </g>
+  <g id="EYES_CLOSED" transform="translate(790 94)">
+    <path id="closed-left" class="none ol" d="M0 43c23 25 55 25 78 0"/>
+    <path id="closed-right" class="none ol" d="M112 43c23 25 55 25 78 0"/>
+    <path class="none ol" d="M8 2c20-10 42-9 61 3M120 5c19-12 42-12 62-2"/>
+  </g>
+
+  <!-- MOUTH VISEMES: six separate shapes -->
+  <g id="MOUTH_VISEMES" transform="translate(540 220)">
+    <g id="VISEME_REST" transform="translate(0 8)">
+      <path class="none ol" d="M4 18c26 21 59 21 86 0"/>
+    </g>
+    <g id="VISEME_AE" transform="translate(120 0)">
+      <path class="mouth ol" d="M2 7c27 9 64 9 91 0-4 49-22 69-46 69S7 56 2 7z"/>
+      <path class="white ol" d="M6 10c25 8 56 8 82 0-8 16-71 16-82 0z"/>
+      <path class="pink ol" d="M18 58c17-18 45-18 60 0-10 11-20 16-31 16S27 69 18 58z"/>
+    </g>
+    <g id="VISEME_OU" transform="translate(245 4)">
+      <ellipse class="mouth ol" cx="45" cy="36" rx="31" ry="38"/>
+      <ellipse class="pink ol" cx="45" cy="51" rx="18" ry="15"/>
+    </g>
+    <g id="VISEME_MBP" transform="translate(350 10)">
+      <path class="pink ol" d="M2 22c20-13 44-13 65 0-20 15-44 15-65 0z"/>
+    </g>
+    <g id="VISEME_WIDE" transform="translate(445 0)">
+      <path class="mouth ol" d="M2 11c31 9 71 9 103 0-7 43-25 63-52 63S10 54 2 11z"/>
+      <path class="white ol" d="M7 13c29 8 63 8 92 0-8 14-83 14-92 0z"/>
+      <path class="pink ol" d="M19 57c20-17 48-17 68 0-11 11-22 16-34 16s-23-5-34-16z"/>
+    </g>
+    <g id="VISEME_FV" transform="translate(585 5)">
+      <path class="mouth ol" d="M4 10c23 5 48 5 71 0-3 35-14 50-35 50S8 45 4 10z"/>
+      <path class="white ol" d="M7 12c20 5 44 5 65 0l-4 19c-18-7-38-7-57 0z"/>
+      <path class="pink ol" d="M12 42c16-10 37-10 55 0-8 12-17 17-27 17S21 54 12 42z"/>
+    </g>
+  </g>
+
+  <!-- TORSO WITH TWO FIXED TYPING ARMS: both arms, forearms and hands are a single body assembly -->
+  <g id="TORSO_WITH_BOTH_TYPING_ARMS" transform="translate(610 350)">
+    <g id="ARM_TYPING_FIXED_LEFT">
+      <path class="navy ol" d="M78 72C38 67 8 96-3 142l-25 101c-7 29 14 56 43 49l75-19c19-5 29-23 23-42L83 116z"/>
+      <path class="navy ol" d="M22 239c-14 19-7 48 15 59l277 102 40-108-260-81c-29-9-55 1-72 28z"/>
+      <path class="white ol" d="m299 278 57 18-38 109-58-22z"/>
+      <path class="skin ol" d="M340 294c30-9 68-7 98 5l55 22c14 6 10 27-5 27l-56-9 49 27c13 7 6 27-9 25l-56-17 43 28c12 8 3 27-11 23l-54-20-47 2c-23 1-38-14-37-35 1-29 7-69 30-78z"/>
+      <path class="none ol" d="m432 339-53-15m37 50-50-24m28 55-38-31"/>
+    </g>
+    <g id="ARM_TYPING_FIXED" transform="translate(430 150)">
+      <path class="navy ol" d="M54 9c29-18 64-7 78 24 18 39 8 98-23 153l-40 70-68-43 18-167C21 29 37 19 54 9z"/>
+      <path class="navy ol" d="M67 194c12-19 31-28 52-23l188 45-24 100-196-19c-36-4-51-55-20-103z"/>
+      <path class="white ol" d="m278 208 42 10-22 101-43-5z"/>
+      <path class="skin ol" d="M312 220c36-8 79-2 110 13l55 28c12 7 5 25-9 23l-58-17 50 35c11 8 1 26-12 21l-53-25 36 35c9 10-4 24-15 17l-46-27-42 2c-22 1-35-12-35-30 0-25 2-51 19-55z"/>
+      <path class="none ol" d="m410 267-51-17m36 48-48-24m23 49-35-27"/>
+    </g>
+    <path id="shirt" class="white ol" d="M168 16h126l36 60-13 237H145L132 76z"/>
+    <path id="torso-suit" class="navy ol" d="M154 31 71 72C44 87 28 113 24 145L0 344c139 43 321 43 462 0l-25-199c-4-32-19-58-47-73l-84-41-74 281z"/>
+    <path id="lapel-left" class="navy2 ol" d="M154 31 96 82l58 48-30 35 108 147-55-254z"/>
+    <path id="lapel-right" class="navy2 ol" d="m306 31 59 51-59 48 30 35-104 147 52-254z"/>
+    <path id="collar-left" class="white ol" d="m154 31 33-26 45 47-48 61z"/>
+    <path id="collar-right" class="white ol" d="m306 31-34-26-40 47 45 61z"/>
+    <path id="tie-knot" class="slate ol" d="m232 53 27 29-27 31-27-31z"/>
+    <path id="tie" class="slate ol" d="m212 109 40 0 18 144-38 59-39-59z"/>
+    <path id="pocket" class="none ol" d="M341 207h65v38h-63"/>
+    <circle class="navy2 ol" cx="232" cy="324" r="12"/>
+  </g>
+
+  <!-- DESK PROPS -->
+  <g id="DESK_TOP" transform="translate(42 943)">
+    <path class="wood ol" d="M29 0h876l35 36v78H0V35z"/>
+    <path class="wood2 ol" d="M0 72h940v42H0z"/>
+    <path class="none ol" d="M71 27h192m35 0h307m52 0h179M84 52h311m46 0h224" opacity=".35"/>
+  </g>
+  <g id="LAPTOP" transform="translate(1030 693)">
+    <path class="screen ol" d="M22 0h344c16 0 27 11 29 27l27 217H0L-7 27C-8 11 4 0 22 0z"/>
+    <g id="LAPTOP_LOGO">
+      <rect class="white ol" x="70" y="90" width="268" height="58" rx="18"/>
+      <text x="204" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#17385F">@phongphammarketing</text>
+    </g>
+    <path class="silver ol" d="M-8 244h437l19 29c6 9-1 21-12 21H2c-10 0-17-11-12-20z"/>
+    <path class="none ol" d="M171 263h98"/>
+  </g>
+  <g id="COFFEE_MUG" transform="translate(1430 820)">
+    <path class="white ol" d="M0 48h104v118c0 22-17 38-39 38H39c-22 0-39-16-39-38z"/>
+    <ellipse class="white ol" cx="52" cy="48" rx="52" ry="14"/>
+    <ellipse fill="#75401F" class="ol" cx="52" cy="48" rx="38" ry="8"/>
+    <path class="none ol" d="M104 78h15c27 0 31 72 0 81h-15"/>
+    <g id="steam-icon" class="steam ol">
+      <path d="M24 25c-19-18 16-26 0-44"/>
+      <path d="M52 25c-19-18 16-26 0-44"/>
+      <path d="M80 25c-19-18 16-26 0-44"/>
+    </g>
+  </g>
+</svg>
